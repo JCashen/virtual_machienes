@@ -42,4 +42,3 @@ def delete():
     db.session.delete(todo_to_delete)
     db.session.commit()
     return redirect(url_for('index'))
-
