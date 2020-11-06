@@ -21,7 +21,6 @@ class TodoForm(FlaskForm):
                 TodoCheck(message='That ToDo already exists')
             ]
          )
+
     submit = SubmitField('Add Todo')
-
-
     
